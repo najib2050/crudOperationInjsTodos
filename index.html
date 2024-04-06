@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>crud operation in js</title>
+   <!-- //adding fontawsome; -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+   <h1>social media app</h1>
+   <div class="container">
+      <div class="left">
+         <form  id="form">
+            <label for="form">write your post hear</label>
+            <br> <br>
+            <textarea id="input" name="post"  cols="30" rows="10"></textarea>
+            <br> <br>
+            <div id="msg"></div>
+            <button type="submit">post</button>
+         </form>
+      </div>
+      <div class="right">
+         <h3>ypur posts here</h3>
+         <div id="posts">
+            <div>
+               <p>hello world post 1</p>
+               <span class="options">
+                  <i onclick="editPost(this)"class ="fas fa-edit"></i>
+                  <i onclick="deletePost(this)" class=" fas fa-trash-alt"></i>
+
+               </span>
+            </div>
+            <div>
+               <p>hello world post 2</p>
+               <span class="options">
+                  <i onclick="editPost(this)"class="fas fa-edit"></i>
+                  <i onclick="deletePost(this)" class="fas fa-trash-alt"></i>
+                  
+               </span>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="main.js"></script>
+</html>

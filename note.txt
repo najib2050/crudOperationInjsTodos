@@ -1,0 +1,26 @@
+LEASON CONTENT
+what is CRUD?
+UNDERSTANDING CRUD PRINCIPLES
+HOW TO MAKE A TO DO APP USING CRUD OPERATIONS
+
+
+crud stand for
+c=create
+r=read:
+u=update:
+d=delete;
+
+in our case we gonna make a todo app so we will have 4 options:
+     create task:
+     read task:
+     update task:
+     delete task:
+
+understanding crud PRINCIPLES
+create simple social media application:
+
+created every thing html and css work;
+
+in js
+
+application ---
